@@ -17,8 +17,8 @@ span {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
 }
 
 section,
@@ -27,4 +27,27 @@ header {
     background-color: white;
     width: 960px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+}
+header li {
+    margin-bottom: 15px;
+}
+
+header address img {
+    width: 16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+    border-radius: 50%;
 }
